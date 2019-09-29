@@ -3,7 +3,7 @@
   "short_name": "Ad-skipper",
   "description":"Skips all the skippable ads on youtube without waiting for five seconds",
   "manifest_version": 2,
-  "version":"1.0.0",
+  "version":"1.2.0",
   "author":"Nikhil Singh",
   "content_scripts":[
     {
