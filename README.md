@@ -1,5 +1,6 @@
 # Welcome to Youtube-ad-skipper
-Youtube-ad-skipper ia a project aimed at skipping the skippable youtube ads.
+Youtube-ad-skipper ia a project aimed at skipping the skippable youtube ads. Check [Ad Abolish](https://chrome.google.com/webstore/detail/youtube-ad-skipper/jfmmhlgdaekimamaebokgdjeolkdlfpg?hl=en)
+
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -58,4 +59,3 @@ git push origin branchname
 ```
 
 ## And Voila, you have made your first PR! 
-
