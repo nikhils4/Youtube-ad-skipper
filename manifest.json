@@ -1,23 +1,28 @@
 {
-  "name":"Youtube : Ad-skipper",
+  "name": "Youtube: Ad-skipper",
   "short_name": "Ad-skipper",
-  "manifest_version": 2,
-  "version":"2.0.0",
-  "author":"Nikhil Singh",
-  "content_scripts":[
+  "manifest_version": 3,
+  "version": "4.0.0",
+  "author": "Nikhil Singh",
+  "permissions": [
+    "activeTab",
+    "webNavigation"
+  ],
+  "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js":["skip.js"],
+      "js": ["skip.js"],
       "run_at": "document_end",
       "all_frames": true
     }
   ],
-  "icons" : {
-    "128" : "icon128.png",
-    "48" : "icon48.png",
-    "16" : "icon16.png"
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
   }
 }
+
 
 
 
